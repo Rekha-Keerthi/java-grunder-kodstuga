@@ -6,7 +6,7 @@ public class ExerciseDoWhile {
         do{
             System.out.println("Do while loop executes atleast 1 time");
             num--;
-        }while(num >=5);
+        }while(num==5);
     }
     
 }
