@@ -41,13 +41,20 @@ public class PrintNumbers1to10 {
 
         //e.	Write a program that uses a for loop to calculate and print the sum of the first 10 odd numbers.
 
+
+        //sm of odd number from 1 to 10
         int sum =0;
-        for( int i=1; i<=10; i++)
+        int count = 0;
+        for( int i=1; count<= 10; i++)
         {
+
             if (i%2 !=0){
+                System.out.println(i);
+            count = count + 1;
             sum = sum + i;
+            if(count==10)
+                break;
             
-            continue;
             }
             
         }
