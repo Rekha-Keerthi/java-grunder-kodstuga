@@ -2,38 +2,31 @@ package Oct12Metoder;
 
 public class Monster {
 
-    public  static void attack()
+    int monsterlivs = 100;
+
+    public  static void fight()
     {
         System.out.println("Attack");
 
     }
 
-    public  static void attack(int damage)
+    public  void attack(int damage)
     {
-        attack();
-        System.out.println("Monster has attacked and damaged " +damage + "he is dead");
+        
+        monsterlivs = monsterlivs-damage;
+        System.out.println("Monster was attacked and damaged ");
+
+        if(monsterlivs <=0)
+        {
+            System.out.println("Monster is dead");
+        }
         
     }
 
-    public int harm(boolean x)
+    public int monsterLife()
     {
-        if(x==true)
-        {
-            return 100;
-        }
-        else
-        {
-            return 0;
-        }
-    }
-    
+      return monsterlivs;
 
-    public static void main(String[] args) {
-        Monster m = new Monster();
-        attack();
-        m.attack(100);
-        m.harm(true);
-
-        
     }
+
 }

@@ -6,7 +6,7 @@ public class Pizzakalkylatorn {
 
     
 
-    static int beraknaPris(int pizzachoice, int pizzor, int pizzaprice){
+    public int beraknaPris(int pizzachoice, int pizzor, int pizzaprice){
         
 
         switch (pizzachoice) {
@@ -25,16 +25,5 @@ public class Pizzakalkylatorn {
 
     }
 
-    public static void main(String[] args) {
-        Pizzakalkylatorn margharita = new Pizzakalkylatorn();
-        Scanner s = new Scanner(System.in);
-        System.out.println("Choose the menu number: ");
-        int pizzachoice = s.nextInt();
-        String currency = "Kr";
-        int sumofpizzas = 0;
-        int pizzachoosen  = margharita.beraknaPris(pizzachoice,2, 129);
-        sumofpizzas = sumofpizzas + pizzachoosen;
-        System.out.println("Total price " + sumofpizzas + currency);
-    }
     
 }

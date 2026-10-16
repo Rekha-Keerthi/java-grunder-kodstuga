@@ -3,7 +3,7 @@ package Klasser;
 public class Robot {
 
     public String name;
-    private int batteri;
+    private int batteri=100;
 
     Robot(String name, int batteri)
      {
@@ -17,11 +17,11 @@ public class Robot {
         System.out.println("Robot name is: " + name + " and its battery is: " + batteri);
      }
 
-    /*  public static void main(String[] args) {
+    public static void main(String[] args) {
         Robot roboOne = new Robot("Nemo", 1500);
         roboOne.batteri= 300;
         roboOne.visaStatus();
-     }*/
+    }
 
 
 

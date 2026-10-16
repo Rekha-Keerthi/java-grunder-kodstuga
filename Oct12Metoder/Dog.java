@@ -3,13 +3,9 @@ package Oct12Metoder;
 public class Dog {
     int hunger=100;
 
-    
-
     void  eat()
     {
-        
             hunger = hunger -10;
-        
     }
 
     void  showHunger()
@@ -30,13 +26,5 @@ public class Dog {
     }
 
 
-    public static void main(String[] args) {
-        Dog frasse = new Dog();
-       
-        frasse.showHunger();
-        frasse.eat();
-        frasse.showHunger();
-        frasse.eat();
-    }
     
 }

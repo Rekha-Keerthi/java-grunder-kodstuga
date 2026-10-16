@@ -15,12 +15,5 @@ public class Player {
 
     }
 
-    public static void main(String[] args) {
-        Player player1 = new Player();
-        player1.setScore(50);
-        
-        player1.score=49;
-        int scoreValue = player1.getScore();
-        System.out.println("The score is : " + scoreValue);
-    }
+
 }
