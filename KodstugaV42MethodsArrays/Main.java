@@ -2,7 +2,7 @@ package KodstugaV42MethodsArrays;
 
 public class Main {
     
-    /*Övning 6 – Bygg ett litet spel! */
+    
     public static void main(String[] args) {
         
         /*Övning 1 – Hälsa på din robot! */
@@ -32,7 +32,6 @@ public class Main {
         System.out.println("Övning 4 – Hitta den hemliga skatten!");
         System.out.println();
         int[] goldArray = {2351,999,5463, 2412,5331};
-        
         GoldTreasure goldpris = new  GoldTreasure();
         System.out.println("Total pris av gold är: " + goldpris.raknaGuld(goldArray));
         System.out.println("Maximum price of all the gold pris list: " + goldpris.maxGoldpris(goldArray)+currency);
@@ -41,12 +40,12 @@ public class Main {
 
         /*Övning 5 – Välj din superkraft! */
         System.out.println("Övning 5 Välj din superkraft!");
-
         Superkraft superkraft1 = new Superkraft(SUPERKRAFT.BLIXT);
         superkraft1.superPower();
         superkraft1.printSuperpowers();
         System.out.println("--------------------------------------------------------");
 
+        /*Övning 6 – Bygg ett litet spel! */
         int[] pointValues = {10, 20, 5, 50, 15};
         int sumOfPoints= 0;
         for ( int i = 0; i < pointValues.length-1 ; i++)
@@ -54,6 +53,7 @@ public class Main {
             
             sumOfPoints = sumOfPoints + pointValues[i];
         }
+        
         Hjalte  h = new  Hjalte();
         System.out.println("Övning 6  Bygg ett litet spel!");
         System.out.println();

@@ -1,5 +1,7 @@
 
 
+package Oct02Variables;
+
 public class BugHunt {
     public static void main(String[] args) { 
         String name = "Ada"; // Syntax error, String data Type should start with Capital 'S' and the code line should with semi-colon 

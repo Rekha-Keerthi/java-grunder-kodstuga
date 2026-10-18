@@ -10,7 +10,7 @@ public class GodisCounting {
 
     public double raknaPris(double godisNum)
     {
-        double prisPerBit = 2;
+        final double prisPerBit = 2;
         
         double totalPris = godisNum*prisPerBit;
         return totalPris;

@@ -1,4 +1,8 @@
-public class Ovning2ControlFlow {
+package Oct06ControlFlow2;
+
+
+
+    public class Ovning2ControlFlow {
     public static void main(String[] args) {
                     int num = 1, result = 0;
         do {
@@ -12,4 +16,4 @@ public class Ovning2ControlFlow {
          System.out.println(result);   
          //System.out.println(b);  
     }
-}
+    }

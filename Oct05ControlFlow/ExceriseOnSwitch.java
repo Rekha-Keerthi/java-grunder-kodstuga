@@ -1,3 +1,5 @@
+package Oct05ControlFlow;
+
 import java.util.Scanner;
 
 public class ExceriseOnSwitch {

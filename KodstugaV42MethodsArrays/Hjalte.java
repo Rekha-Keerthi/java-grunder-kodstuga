@@ -14,7 +14,8 @@ public class Hjalte {
         this.point = point;
     }
     
-
+    
+    
     public int highestScore(int[] arr)
     {
         int max = arr[0];
