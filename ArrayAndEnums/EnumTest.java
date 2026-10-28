@@ -4,7 +4,7 @@ public class EnumTest {
 
     Days day;
 
-    public EnumTest(Days day)
+     EnumTest(Days day)
     {
         this.day= day;
     }

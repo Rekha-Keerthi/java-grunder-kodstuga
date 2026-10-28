@@ -1,0 +1,108 @@
+GROUP EXERCISE
+
+Space Station 404
+
+Build a small Java simulation together and save the station before time runs out.
+
+
+THE MISSION
+
+Space Station 404 has lost control of several sections. Oxygen levels are dropping, doors have locked, and the reactor is shutting down. Your group must build a Java program that simulates a rescue team moving through the station and resolving these issues.
+ The program does not need to be large—the focus is on using the building blocks covered in the course in a thoughtful way.
+
+
+How to work
+
+Work within a single codebase. One person acts as the "driver" (writing the code), while the others discuss, review, and propose solutions. Rotate the driver role approximately every 20 minutes. 
+The goal is for the entire group to be able to explain the solution—not to split the task into four separate, independent parts.
+
+· Use a Git/GitHub repository, following the workflow you have been using throughout the course.
+
+· Make at least three meaningful commits during the process, rather than just one large commit at the end.
+
+· Run the program frequently. If something goes wrong, read the error message together before modifying any code.
+
+· You are free to choose your own class names, variable names, and specific implementation details. The requirements below outline what the program should be capable of, not exactly how the code must be structured.
+
+
+The Station
+
+[ START ] -> [ AIRLOCK ] -> [ LAB ] -> [ REACTOR ]
+
+The rescue team must move through the station’s sections in order. Each section presents a challenge that affects the team or must be resolved before they can proceed. Examples:
+
+· The airlock is leaking oxygen and consuming energy.
+
+· The lab is locked and requires a specific type of team member or a certain amount of energy to access. · The reactor must be repaired for the mission to succeed.
+
+
+The program must include:
+
+· Variables, types, and operators: For example, use names, energy, damage, points, or alarm levels. At least one calculation must modify a value during the simulation.
+
+· Control flow: Use `if/else` and at least one loop or `switch` statement to control events within the station.
+
+· Classes and objects: Model at least two entities in the program as distinct classes—for example, team members, sections, or the station itself.
+
+· Methods: Encapsulate behaviors into methods. The `main` method should initiate and manage the simulation, rather than containing all the logic.
+
+· Arrays: Store multiple objects or values ​​in an array and perform operations on their contents.
+
+· Enums: Use an `enum` for entities with a finite set of states—for example, section types, statuses, or roles.
+
+· Inheritance: Implement a parent class and at least two subclasses. The subclasses must differ in some way, either in their behavior or their data.
+
+· Abstract classes or methods: At least one part of your model must be abstract, requiring implementation within a subclass.
+
+· Interfaces: Define a behavior that different types can implement. Demonstrate that a single method can operate on objects of various types via the interface type.
+
+· Polymorphism: Ensure that, at some point, an object can be treated as a more general type—for example, treating a subclass as its parent class, or an object as an interface type.
+
+
+Required scenarios:
+
+· A segment where a value is modified using operators, with a conditional statement determining the subsequent outcome.
+
+· A segment where the program utilizes your `enum`—in conjunction with a `switch` or `if/else` statement—to determine the appropriate behavior. · 
+A final section where polymorphism plays a role—for instance, where a general `Repairable`, `CrewMember`, or similar type can represent various concrete objects.
+
+
+Planning
+
+· Sketch out the program. Define classes, enums, and interfaces, and determine what will be stored in the array. Create the repository/project and make your first commit.
+
+· Build the core model: variables, classes, constructors, and methods. Ensure a basic program flow runs from start to finish.
+
+· Add station events using control flow, arrays, and enums. Test after implementing each part.
+
+· Incorporate inheritance, abstract components, interfaces, and polymorphism. Try to reuse the same method for multiple concrete types.
+
+· Bug hunt: run various scenarios, verify the output, and remove any unnecessary code duplication.
+
+· Push to GitHub and prepare a 60-second demo where every group member can explain at least one part of the solution.
+
+
+When you consider the project complete:
+
+o The program compiles and runs without needing any parts of the code to be commented out.
+
+o You can point out where variables/operators, control flow, classes, methods, arrays, and enums are used.
+
+o You can explain the difference between a parent class and a subclass within your own code.
+
+o You can explain why you chose to use an interface and identify which classes implement it.
+
+o You can demonstrate a concrete example of polymorphism within your solution.
+
+o Every group member can explain at least one class or method without reading from notes.
+
+o The code has been pushed to GitHub, including multiple commits.
+
+
+If you finish early, choose ONE twist:
+
+Blackout: Add an additional section where the same code must function for various types of team members. New team: Add a third subclass with behavior that differs from the others.
+
+Dual repair: Create two completely different objects that can both be handled via the same interface, and let the same method manage both.
+
+More challenging finale: The mission should be able to fail in at least two different ways, not just

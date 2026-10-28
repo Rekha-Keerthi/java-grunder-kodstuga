@@ -20,7 +20,6 @@ abstract class Health {
     //getter method to display the remaining lives and arrows after an attack
     void getDetailsofCharacter(){
         
-     
         System.out.println("Health: " + characterHealth);
         System.out.println("No of arrows reamining: " + noOfArrows);
 

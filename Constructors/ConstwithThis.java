@@ -31,7 +31,7 @@ public class ConstwithThis {
     //parametersised constructor . here the parameter names is as the instance variable
     ConstwithThis(int a, int b)
     {
-        //this keyword is used to refer current class instance variable
+        //this keyword is used to refer current objects instance variable
         this.a=a;
         this.b=b;
         System.out.println("This is parameterised constructor");

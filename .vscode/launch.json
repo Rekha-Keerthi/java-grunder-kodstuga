@@ -1,0 +1,380 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    
+
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Abstraction.Main",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "Compass",
+            "request": "launch",
+            "mainClass": "ArrayAndEnums.Compass",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "DiceGame",
+            "request": "launch",
+            "mainClass": "ArrayAndEnums.DiceGame",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "Highscore",
+            "request": "launch",
+            "mainClass": "ArrayAndEnums.Highscore",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "ArrayAndEnums.Main",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "Skattjakten",
+            "request": "launch",
+            "mainClass": "ArrayAndEnums.Skattjakten",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "Spellager",
+            "request": "launch",
+            "mainClass": "ArrayAndEnums.Spellager",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "UserInputToArray",
+            "request": "launch",
+            "mainClass": "ArrayAndEnums.UserInputToArray",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "ConstStaticInstance",
+            "request": "launch",
+            "mainClass": "Constructors.ConstStaticInstance",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "ConstwithThis",
+            "request": "launch",
+            "mainClass": "Constructors.ConstwithThis",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "Geeks",
+            "request": "launch",
+            "mainClass": "Constructors.Geeks",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "Geeks(1)",
+            "request": "launch",
+            "mainClass": "Inheritance.Geeks",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "Inheritance.Main",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Inheritance.Test",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "Djur",
+            "request": "launch",
+            "mainClass": "Klasser.Djur",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "Main(3)",
+            "request": "launch",
+            "mainClass": "Klasser.Main",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "Robot",
+            "request": "launch",
+            "mainClass": "Klasser.Robot",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "Spelkaraktar",
+            "request": "launch",
+            "mainClass": "Klasser.Spelkaraktar",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "Djur(1)",
+            "request": "launch",
+            "mainClass": "Kodstuga41ControlFlowKlasser.Djur",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "Fredagsmenyn",
+            "request": "launch",
+            "mainClass": "Kodstuga41ControlFlowKlasser.Fredagsmenyn",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "Main(4)",
+            "request": "launch",
+            "mainClass": "Kodstuga41ControlFlowKlasser.Main",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "PersonBergDalbanan",
+            "request": "launch",
+            "mainClass": "Kodstuga41ControlFlowKlasser.PersonBergDalbanan",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "Pet",
+            "request": "launch",
+            "mainClass": "Kodstuga41ControlFlowKlasser.Pet",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "Raketuppskjutning",
+            "request": "launch",
+            "mainClass": "Kodstuga41ControlFlowKlasser.Raketuppskjutning",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "DreamTeam",
+            "request": "launch",
+            "mainClass": "KodstugaV42MethodsArrays.DreamTeam",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "Main(5)",
+            "request": "launch",
+            "mainClass": "KodstugaV42MethodsArrays.Main",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "BugHunt",
+            "request": "launch",
+            "mainClass": "Oct02Variables.BugHunt",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "FridayPractice",
+            "request": "launch",
+            "mainClass": "Oct02Variables.FridayPractice",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "OperatorLab",
+            "request": "launch",
+            "mainClass": "Oct02Variables.OperatorLab",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "PersonCard",
+            "request": "launch",
+            "mainClass": "Oct02Variables.PersonCard",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "StringWorkshop",
+            "request": "launch",
+            "mainClass": "Oct02Variables.StringWorkshop",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "ExceriseOnIFElse",
+            "request": "launch",
+            "mainClass": "Oct05ControlFlow.ExceriseOnIFElse",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "ExceriseOnSwitch",
+            "request": "launch",
+            "mainClass": "Oct05ControlFlow.ExceriseOnSwitch",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "ExerciseDoWhile",
+            "request": "launch",
+            "mainClass": "Oct05ControlFlow.ExerciseDoWhile",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "ExerciseForLoop",
+            "request": "launch",
+            "mainClass": "Oct05ControlFlow.ExerciseForLoop",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "ExerciseOnELseIf",
+            "request": "launch",
+            "mainClass": "Oct05ControlFlow.ExerciseOnELseIf",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "ExerciseOnIF",
+            "request": "launch",
+            "mainClass": "Oct05ControlFlow.ExerciseOnIF",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "ExerciseWhile",
+            "request": "launch",
+            "mainClass": "Oct05ControlFlow.ExerciseWhile",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "blockscope",
+            "request": "launch",
+            "mainClass": "Oct05ControlFlow.blockscope",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "Ovning2ControlFlow",
+            "request": "launch",
+            "mainClass": "Oct06ControlFlow2.Ovning2ControlFlow",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "PrintNumbers1to10",
+            "request": "launch",
+            "mainClass": "Oct06ControlFlow2.PrintNumbers1to10",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "Main(6)",
+            "request": "launch",
+            "mainClass": "Oct12Metoder.Main",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "Robot(1)",
+            "request": "launch",
+            "mainClass": "Oct12Metoder.Robot",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "HalfPyramid",
+            "request": "launch",
+            "mainClass": "Ovning.HalfPyramid",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "HalfPyramidAlphabets",
+            "request": "launch",
+            "mainClass": "Ovning.HalfPyramidAlphabets",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "HalfPyramidNumbers",
+            "request": "launch",
+            "mainClass": "Ovning.HalfPyramidNumbers",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "Main(7)",
+            "request": "launch",
+            "mainClass": "Ovning.Main",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "Arena",
+            "request": "launch",
+            "mainClass": "SpicyOvningUpdate.Arena",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "Arena(1)",
+            "request": "launch",
+            "mainClass": "SpicyProjectBackup.Arena",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "Main(8)",
+            "request": "launch",
+            "mainClass": "Vecka43Ovning.Main",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "Main(9)",
+            "request": "launch",
+            "mainClass": "Vecka43Ovning.Ovning4.Main",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        },
+        {
+            "type": "java",
+            "name": "variablesexcerise",
+            "request": "launch",
+            "mainClass": "variablesexcerise",
+            "projectName": "java-grunder-kodstuga_14b7aca3"
+        }
+    ]
+}

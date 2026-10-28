@@ -7,7 +7,7 @@ interface  Action {
     final int damagePointsfromMonkeys= 10;
     final int damagePointsfromWildAnimals= 7;
 
-    //coommon shared by characters to attack
+   
    
     void attackWithArrows();
 
