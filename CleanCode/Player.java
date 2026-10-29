@@ -2,9 +2,9 @@ package CleanCode;
 
 public class Player {
 
-    String name ;
-    int health;
-    int coins;
+    private  String name ;
+    private int health;
+    private int coins;
 
 
     Player(String name, int health, int coins)
@@ -17,32 +17,29 @@ public class Player {
     
     public int heal(int amount)
     {   
-        
         health = health + amount;
-        return health;
+    
+        return Math.min(health, 100);
     }
 
-    public void canBuyPotion(int price){
-        if (price >30)
+    public boolean canBuyPotion(int price){
+        if (coins >=price)
         {
             System.out.println("Köpet lyckades. Kostnad: " + price + " coins.");
-            buyPotion(price);
-            printStatus();
+            return  true;
+            
         }
         else
         {
             System.out.println("Du har inte tillräckligt med coins.");
+            return false;
         }
 
     }
 
-    public int buyPotion(int price){
-        int decrement=10;
-        if (price >30)
-        {
-            coins = coins-decrement;
-            heal(10);
-        }
+    public int buyPotion(int price){ 
+        coins = coins-price;
+            
         return coins;
     }
 
@@ -53,16 +50,7 @@ public class Player {
         System.out.println("Coins: " + coins);
     }
 
-    public static void main(String[] args) {
-
-        Player playerOne = new Player("Mario", 60 , 100);
-
-        int price =50;
-
-        playerOne.canBuyPotion(price);
-        
-        
-    }
+    
 
     
 }
